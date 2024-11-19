@@ -1,0 +1,32 @@
+{
+  "name": "music-player",
+  "version": "0.0.1",
+  "description": "Reproductor de musica",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch ./src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaguraBCN/Music-Player.git"
+  },
+  "keywords": [
+    "Reproductor",
+    "Musica",
+    "Songs"
+  ],
+  "author": "David Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaguraBCN/Music-Player/issues"
+  },
+  "homepage": "https://github.com/DaguraBCN/Music-Player#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
